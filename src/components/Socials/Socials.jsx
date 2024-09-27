@@ -13,12 +13,12 @@ const Socials = ({ updateScore }) => {
       <h2>Follow Me</h2>
       <ul className="socials-list">
         <li>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" onClick={handleSocialClick}>
+          <a href="https://github.com/AnantSutar" target="_blank" rel="noopener noreferrer" onClick={handleSocialClick}>
             <FaGithub className="social-icon" /> {/* GitHub icon */}
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" onClick={handleSocialClick}>
+          <a href="https://www.linkedin.com/in/anant-sutar-8a9a41b9/" target="_blank" rel="noopener noreferrer" onClick={handleSocialClick}>
             <FaLinkedin className="social-icon" /> {/* LinkedIn icon */}
           </a>
         </li>
