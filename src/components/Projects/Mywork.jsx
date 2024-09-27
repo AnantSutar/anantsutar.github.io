@@ -14,7 +14,7 @@ const Mywork = () => {
     { 
       title: 'Chain Reaction Game', 
       description: 'Developed an interactive chain reaction game in Python with full SDLC engagement, utilizing databases, networking, and threading, applied data analytics for user insights, and ensured thorough documentation and team communication.',
-      github: 'https://github.com/username/portfolio',
+      github: 'https://github.com/omkar-7/Chain-Reaction-Multi-Player',
       technologies: ['Python', 'Tkinter','Mysql']
     },
     { 
@@ -24,9 +24,9 @@ const Mywork = () => {
       technologies: ['Python', 'Scikit-Learn','Tensorflow','Pandas']
     },
     { 
-      title: 'Machine Learning Model: Classifying Images of Road Traffic Signs', 
-      description: 'Collaboratively developed traffic sign recognition models using MLP and CNN in Python, conducted EDA to improve generalization, and ensured robust performance through independent testing and benchmarking.',
-      github: 'https://github.com/username/portfolio',
+      title: 'Lung Disease Prediction Using Chest X-rays', 
+      description: 'Developed a predictive model for lung disease detection from chest X-rays, utilizing data preprocessing, feature extraction, and advanced machine learning algorithms to enhance accuracy.',
+      github: 'https://github.com/omkar-7/CXR-Web-App',
       technologies: ['Python', 'Scikit-Learn','Tensorflow','Pandas']
     },
     // Add more projects here...
@@ -34,16 +34,22 @@ const Mywork = () => {
 
   const researchPapers = [
     { 
-      title: 'EEG Data Classification', 
-      description: 'Computational analysis of deep learning models for EEG data classification.',
-      github: 'https://github.com/username/eeg-classification',
-      technologies: ['Python', 'TensorFlow']
+      title: 'Computational Analysis of Deep Learning Models for Classification of EEG Data related to Cognitive Impairment', 
+      description: 'This paper reviews deep learning techniques like CNN, RNN, MLP, and Deep Belief Networks for EEG classification, with CNN achieving the best results, including 98.5% accuracy in seizure detection.',
+      github: 'https://shorturl.at/yDp8k',
+      technologies: ['Semantic Scholar']
     },
     { 
-      title: 'Pneumonia Detection from X-rays', 
-      description: 'Deep learning models for lung disease diagnosis using X-ray images.',
-      github: 'https://github.com/username/pneumonia-detection',
-      technologies: ['Python', 'CNN']
+      title: 'Detection of Pneumonia Using Machine Learning and Deep Learning Techniques', 
+      description: 'This paper explores lung disease diagnosis using deep learning, achieving 96% accuracy in pneumonia detection with CNN models.',
+      github: 'https://shorturl.at/9Xskd',
+      technologies: ['Wiley']
+    },
+    { 
+      title: 'MetaEfficientNet: A Few-Shot Learning Approach for Lung Disease Classification', 
+      description: 'MetaEfficientNet, a few-shot learning model, achieved 97% accuracy (AUC 0.9734), outperforming CNN and VGG16-based models, with 98% accuracy using a 3-way-8-shot approach.',
+      github: 'https://shorturl.at/dMwWv',
+      technologies: ['Springer']
     },
     // Add more research papers/projects here...
   ];
@@ -72,12 +78,13 @@ const Mywork = () => {
             {projects.map((project, index) => (
               <div className="project-card" key={index}>
                 <h3>{project.title}</h3>
-                <p>{project.description}</p>
                 <div className="technologies">
                   {project.technologies.map((tech, idx) => (
                     <span key={idx} className="technology">{tech}</span>
                   ))}
                 </div>
+                <p>{project.description}</p>
+                
                 <a href={project.github} target="_blank" rel="noopener noreferrer">View on GitHub</a>
               </div>
             ))}
@@ -89,13 +96,14 @@ const Mywork = () => {
             {researchPapers.map((paper, index) => (
               <div className="project-card" key={index}>
                 <h3>{paper.title}</h3>
-                <p>{paper.description}</p>
                 <div className="technologies">
                   {paper.technologies.map((tech, idx) => (
                     <span key={idx} className="technology">{tech}</span>
                   ))}
                 </div>
-                <a href={paper.github} target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                <p>{paper.description}</p>
+                
+                <a href={paper.github} target="_blank" rel="noopener noreferrer">View</a>
               </div>
             ))}
           </div>
