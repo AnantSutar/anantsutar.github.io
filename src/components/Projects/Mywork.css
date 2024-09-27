@@ -1,0 +1,96 @@
+.mywork-container {
+  background-color: transparent;
+  color: white;
+  padding: 50px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tabs button {
+  background-color: transparent;
+  color: #c4b5fd;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.tabs button:hover {
+  color: inherit; /* Keep the text color as it is */
+  background-color: transparent; /* Ensure no background color changes */
+  border: none; /* Prevent any border changes on hover */
+  transition: none; /* Remove any transition effects if they exist */
+}
+
+.tabs .active {
+  color: #ffffff;
+  border-bottom: 2px solid #c4b5fd;
+}
+
+.work-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Set to 3 columns */
+  gap: 20px; /* Space between cards */
+}
+
+.project-card {
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0; /* Remove margin to align cards properly */
+  text-align: left;
+  transition: transform 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.technologies {
+  margin-top: 10px;
+}
+
+.technology {
+  background-color: #c4b5fd;
+  color: #1f2833;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+a {
+  color: #c4b5fd;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional Media Query for Responsiveness */
+@media (max-width: 900px) {
+  .work-content {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .work-content {
+    grid-template-columns: 1fr; /* 1 column for mobile screens */
+  }
+}

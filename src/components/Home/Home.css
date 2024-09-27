@@ -1,0 +1,26 @@
+/* src/components/Home.css */
+
+/* Ensures the main container takes up the full height of the screen */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  /* Styling for the h1 and h3 elements */
+  .main h1 {
+    font-size: 3rem;
+    margin: 0.5rem;
+  }
+  
+  .main h3 {
+    font-size: 1.8rem;
+    margin: 0.5rem;
+  }
+  

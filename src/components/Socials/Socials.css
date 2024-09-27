@@ -1,0 +1,51 @@
+/* src/components/Socials.css */
+
+/* Container for Socials */
+.socials {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  /* Style for the list of socials */
+  .socials-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for each list item */
+  .socials-list li {
+    font-size: 1rem;
+  }
+  
+  /* Link style */
+  .socials-list li a {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect on the icons */
+  .socials-list li a:hover .social-icon {
+    color: #c4b5fd; /* Light purple for the space-like glow */
+    transform: scale(1.2); /* Slightly enlarge the icons on hover */
+  }
+  
+  /* Icon style */
+  .social-icon {
+    font-size: 3rem;
+    transition: all 0.3s ease;
+  }
+  
+  /* Icon specific styles */
+  .social-icon:hover {
+    color: #c4b5fd; /* Glowing color when hovering */
+  }
+  
+  .socials-list li a .social-icon {
+    font-size: 2rem; /* Decrease the icon size here */
+    transition: all 0.3s ease;
+  }

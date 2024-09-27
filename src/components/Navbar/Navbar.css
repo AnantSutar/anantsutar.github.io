@@ -1,0 +1,27 @@
+/* src/components/Navbar.css */
+.navbar {
+  position: relative;
+  z-index: 2; /* Ensure it's above the background */
+  background: transparent; /* If you want it transparent */
+  padding: 20px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Centering the list */
+}
+
+.navbar-item {
+  margin: 0 15px; /* Spacing between items */
+}
+
+.navbar-link {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Change color as needed */
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #c4b5fd; /* Change color on hover */
+}

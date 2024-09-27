@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+ 
+  color: #fff;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.socials, .notes, .scoreboard {
+  margin: 2rem 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
