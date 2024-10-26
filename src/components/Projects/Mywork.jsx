@@ -8,8 +8,8 @@ const Mywork = () => {
     { 
       title: 'Movie Booking Application', 
       description: 'Developed a responsive React front-end with seamless API integration using Axios, implemented a robust back-end with Node, Express, and Sequelize, and contributed to engineering analysis and thorough technical documentation.',
-      github: 'https://github.com/username/movie-booking',
-      technologies: ['React', 'Node.js', 'MysqL']
+      github: 'https://github.com/AnantSutar/LoopCinemas',
+      technologies: ['React', 'Node.js', 'Express' ,'MysqL']
     },
     { 
       title: 'Chain Reaction Game', 
@@ -20,7 +20,7 @@ const Mywork = () => {
     { 
       title: 'Machine Learning Model: Classifying Images of Road Traffic Signs', 
       description: 'Collaboratively developed traffic sign recognition models using MLP and CNN in Python, conducted EDA to improve generalization, and ensured robust performance through independent testing and benchmarking.',
-      github: 'https://github.com/username/portfolio',
+      github: 'https://github.com/AnantSutar/Machine-Learning-Model-Classifying-Images-of-Road-Traffic-Signs',
       technologies: ['Python', 'Scikit-Learn','Tensorflow','Pandas']
     },
     { 
@@ -29,7 +29,12 @@ const Mywork = () => {
       github: 'https://github.com/omkar-7/CXR-Web-App',
       technologies: ['Python', 'Scikit-Learn','Tensorflow','Pandas']
     },
-    // Add more projects here...
+    { 
+      title: 'Todo App with Rails', 
+      description: 'Built a full-stack to-do app with a responsive React front-end, a robust Ruby on Rails back-end, and PostgreSQL integration, ensuring smooth API communication and comprehensive technical documentation.',
+      github: 'https://github.com/AnantSutar/RailsTodo',
+      technologies: ['Ruby', 'Rails','React','Postgres']
+    },// Add more projects here...
   ];
 
   const researchPapers = [
